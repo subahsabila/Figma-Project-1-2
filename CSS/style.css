@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style: none;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+.btn{
+    background-color: #b88e2f;
+    font-weight: 600;
+font-size: 16px;
+line-height: 150%;
+color: #fff;
+padding: 12px 36px;
+display: inline-block;
+}
+.productimage{
+    max-width: 100%;
+    display: block;
+ }
+nav .logo{
+     width: 25%;
+    }
+nav .menu{
+    width: 50%;
+}
+nav .quickmenu{
+    width: 25%;
+}
+nav .logo{
+    align-content: center;
+}
+nav .menu ul li{
+    display: inline-block;
+   
+    
+    
+}
+nav .menu ul li a{
+    color: black;
+    padding: 40px;
+    margin-top: 20px;
+
+    
+}
+nav .menu{
+    align-content: center;
+    justify-content: center;
+}
+nav .quickmenu ul li{
+    display: inline-block;
+}
+nav .quickmenu ul li a{
+    color: black;
+    padding: 20px;
+    margin-top: 20px;
+
+}
+nav .quickmenu{
+    align-content: center;
+    justify-content: end;
+}
+
+#banner{
+    background-image: url(../images/banner.jpg);
+    height: 716px;
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    padding-top: 157px;
+}
+.bannercnt{
+    width: 643px;
+    height: 443px;
+    background-color: #FFF3E3;
+    padding: 49px 43px;
+    margin-left: auto;
+    margin-right: 58px;
+    
+}
+.bannercnt h4{
+    font-weight: 600;
+font-size: 16px;
+letter-spacing: 0.19em;
+color: #333;
+}
+.bannercnt h1{
+    font-weight: 700;
+font-size: 52px;
+line-height: 125%;
+color: #b88e2f;
+margin: 4px 0 17px;
+}
+.bannercnt p{
+    font-weight: 500;
+font-size: 18px;
+line-height: 133%;
+color: #333;
+margin-bottom: 48px;
+}
+.bannercnt a{
+    padding: 25px 72px;
+ }
+ #category{
+   margin: 58px 0 63px;
+   text-align: center;
+ }
+ #category .heading h2{
+    font-weight: 700;
+font-size: 32px;
+color: #333;
+
+ }
+ #category .heading p{
+    font-weight: 400;
+font-size: 20px;
+text-align: center;
+color: #666;
+
+ }
+ .categoryimages{
+    width: 33.33%;
+    margin-top: 62px;
+ }
+#Dining a{
+    font-weight: 600;
+font-size: 24px;
+text-align: center;
+color: #333;
+ }
+#Living a{
+    font-weight: 600;
+font-size: 24px;
+text-align: center;
+color: #333;
+ }
+ #Bedroom a{
+    font-weight: 600;
+font-size: 24px;
+text-align: center;
+color: #333;
+ }
+ .productimage{
+    width: calc(25% - 32px);
+    margin: 0 1rem;
+ }
+ .content{
+    padding: 16px 20px;
+    background-color: #B0B0B0;
+ }
